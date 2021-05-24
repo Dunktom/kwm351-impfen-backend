@@ -81,33 +81,5 @@ class UsersTableSeeder extends Seeder
         $user6->admin = true;
         $user6->save();
 
-        /*
-        DB::table('users')->insert([
-            'firstName' => "Markus",
-            'lastName' => "Muster",
-            'email' => "mamu@gmail.com",
-            'password' => "mamu123",
-            'socialSecurityNumber' => 1234587494,
-            'admin' => false
-        ]);
-
-        DB::table('users')->insert([
-            'firstName' => "Theo",
-            'lastName' => "Tester",
-            'email' => "theotester@gmail.com",
-            'password' => "theo123",
-            'socialSecurityNumber' => 1234588894,
-            'admin' => false
-        ]);
-
-        DB::table('users')->insert([
-            'firstName' => "Adolf",
-            'lastName' => "Admin",
-            'email' => "adiadmin@gmail.com",
-            'password' => "admin123",
-            'socialSecurityNumber' => 1234588686,
-            'admin' => true
-        ]);
-        */
     }
 }
