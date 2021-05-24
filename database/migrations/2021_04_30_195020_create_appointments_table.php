@@ -17,7 +17,6 @@ class CreateAppointmentsTable extends Migration
             $table->id();
             $table->date('date');
             $table->integer('maxUsers');
-            //$table->foreignId('location_id')->constrained()->onDelete('cascade');
             $table->foreignId('location_id')->references('id')->on('locations')->onDelete('cascade');
             $table->timestamps();
         });
